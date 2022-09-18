@@ -1,38 +1,274 @@
-.App {
-  text-align: center;
+/* Additional demo display styles */
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  color: #444;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  background: url(./images/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  margin-top: -16px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin: 2rem 1rem;
+}
+
+.main {
+  width: 95%;
+  margin: auto;
+}
+
+.logo {
+  margin: 0;
+  color: #990000;
+}
+
+.card-wrapper {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.card {
+  border-radius: 16px;
+  background-color: rgb(243 243 243 / 90%)
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.card-desc {
+  padding: 1rem;
+}
+
+.card-desc h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.card-desc p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 80%;
+}
+
+.card-btn {
+  background-color: #cccbc2;
+  border: none;
+  color: rgb(75, 74, 74);
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  width: 49%;
+  border-radius: 5px;
+}
+
+.card-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.d-flex {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.button-container {
+  margin-top: 1rem;
+}
+
+.join-btn {
+  background-color: #990000;
+  color: #ffffff;
+}
+
+.join-btn:hover {
+  background-color: #ffffff;
+  color: #990000;
+  box-shadow: 0 12px 16px 0 rgb(0 0 0 / 52%), 0 17px 50px 0 rgb(0 0 0 / 52%);
+}
+
+.prom-container {
+  width: 100%;
+  padding: 1rem;
+  background-color: rgb(243 243 243 / 60%);
+}
+
+.prom-btn {
+  background-color: #990000;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  width: 48%;
+  border-radius: 5px;
+}
+
+.prom-btn:hover {
+  box-shadow: 0 12px 16px 0 rgb(0 0 0 / 52%), 0 17px 50px 0 rgb(0 0 0 / 52%);
+}
+
+.prom-btn-active {
+  box-shadow: 0 12px 16px 0 rgb(0 0 0 / 62%), 0 17px 50px 0 rgb(0 0 0 / 62%);
+}
+
+.navbar {
+  background: #333;
+}
+
+.theme-nav {
+  list-style-type: none;
+  display: flex;
+  padding: 0 5px 0 5px;
+}
+
+.footer {
+  margin: 0;
+}
+
+.theme-navbar .theme-nav li {
+  padding: 1rem 0.5rem;
+}
+
+.theme-navbar .theme-nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'PT Sans', sans-serif;
+  transition: 0.3s;
+  margin: 0 2px;
+}
+
+/* .theme-nav.nav  {
+    padding: 1rem;
+  } */
+
+.theme-navbar .theme-nav li:hover {
+  background: darkred;
+  color: white;
+  box-shadow: 0 0 5px 3px #990000 inset;
+}
+
+.hero {
+  padding: 80px 0;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+
+.head-img {
+  position: relative;
+  display: inline-block;
+  background: url(./images/hero_bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  margin-top: -16px;
+}
+
+.hero-title {
+  position: relative;
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  line-height: 50px;
+  color: #333333;
+  text-shadow: 0px 0px 8px rgba(251, 251, 251, 0.9);
+}
+
+.hero-title span {
+  color: darkred;
+}
+
+.theme-title {
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.underline {
+  border-bottom: 1px solid #999;
+  padding-bottom: 5px;
+}
+
+.clr-w {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.clr-dr {
+  color: darkred;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.hero-box {
+  margin-left: 15px;
+  width: 100%;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 3px;
+  background: darkred;
+  color: white;
+}
+
+.box h2 {
+  font-size: 177%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+}
+
+.box-title {
+  padding: 0;
+  margin: 0;
+  padding: 10px;
+  background: #F5F7F9;
+  border-bottom: 1px solid #CCC;
+  font-family: 'PT Sans', sans-serif;
+}
+
+@media screen and (min-width:768px) {
+
+  .grid-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
-  to {
-    transform: rotate(360deg);
+
+  .card-wrapper {
+    width: 95%;
+    margin: 0.5rem;
+  }
+
+  .card-btn {
+    padding: 10px 5px;
+    width: 49%;
+  }
+
+  .hero-box {
+    margin-left: 15px;
+    width: 40%;
+  }
+
+  .box {
+    width: 40%;
   }
 }
