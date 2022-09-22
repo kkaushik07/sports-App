@@ -1,10 +1,40 @@
-# Getting Started with Create React App
+# Sports $ Casino Landing Page
+This project showcases a landing page for a Sports or casino. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Description
+•	Promotion - A sports or casino offering with a purpose of encouraging potential customers to sign up.
+
+This promotions page consists of two views or filters which exist on a single page:
+
+
+•	New Customers - a list of promotions only applicable to new customers.
+
+•	All Promotions - a list of all promotions
+
+When the page loads user lands on "All Promotions" section, further they can switch to "New Customer" section by clicking on the respective button.
+
+### All Customers
+This section has a drag and drop functionality i.e. user can re-arrange the list as per will and it automatically gets stored in the local storage.
+
+>>API is hit only when there is no data in the localStorage otherwise even on refreshing the page data is being fetched from localStorage.
+
+## Future Impementaions 
+•Sign-Up button and Navbar can be made functional after adding the respective dedicated sections to the page/app.
+
+•Currently a dummy footer has been placed that can be replaced with a well designed footer.
+
+
+## Technologies Used
+
+>React, CSS, JS and axios
 
 ## Available Scripts
 
-In the project directory, you can run:
+After cloning the project on your local machine, in the project directory, you can run:
+
+### `npm install`
+
+Installs all the dependency packages required.
 
 ### `npm start`
 
@@ -39,32 +69,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

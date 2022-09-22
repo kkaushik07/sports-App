@@ -12,7 +12,7 @@ function App() {
           <div className="logo-holder">
             <h2 className="logo">Sports $ Casino</h2>
           </div>
-          <a href="#" className="card-btn join-btn">Sign up!</a>
+          <a href="#" className="signup-btn btn join-btn">Sign up!</a>
         </div>
       </header>
       <main>

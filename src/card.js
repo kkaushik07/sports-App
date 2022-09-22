@@ -94,8 +94,8 @@ const Cards = () => {
                 <h3>{ele.name}</h3>
                 <p>{ele.description}</p>
                 <div className="button-container d-flex">
-                  <button className="card-btn">{ele.termsAndConditionsButtonText}</button>
-                  <button className="card-btn join-btn">{ele.joinNowButtonText}</button>
+                  <button className="card-btn btn">{ele.termsAndConditionsButtonText}</button>
+                  <button className="card-btn btn join-btn">{ele.joinNowButtonText}</button>
                 </div>
               </div>
             </div>
